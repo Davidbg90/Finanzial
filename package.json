@@ -1,0 +1,44 @@
+{
+  "name": "finanzial",
+  "version": "1.0.0",
+  "description": "Personal finance tracking app with AI advisor",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:44075/git/Davidbg90/Finanzial"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.100.1",
+    "@prisma/client": "^7.8.0",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "bcryptjs": "^3.0.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.7",
+    "next": "^14.2.35",
+    "next-auth": "^4.24.14",
+    "postcss": "^8.5.15",
+    "prisma": "^7.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.8.1",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6"
+  }
+}
